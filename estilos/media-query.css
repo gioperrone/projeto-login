@@ -29,6 +29,7 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
     
     section#login {
         width: 80vw;
+        height: 330px;
     }
 
     section#login > div#imagem {
@@ -41,6 +42,15 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1 {
+        font-size: 1.5em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) { /*DESKTOP OU MAIORES*/
@@ -50,16 +60,26 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
 
     section#login {
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
